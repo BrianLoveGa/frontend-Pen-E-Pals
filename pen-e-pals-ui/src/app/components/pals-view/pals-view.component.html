@@ -1,0 +1,24 @@
+<p>pals-view works!</p>
+<div class="container">
+    <table class="table table-bordered table-inverse">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Interests</th>
+        
+      </tr>
+      <tr *ngFor="let pal of pals">
+        <td>
+          {{pal.name}}
+        </td>
+        <td>
+          {{pal.email}}
+        </td>
+        <td>
+          {{pal.interests}}
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h3>END</h3>
+  
