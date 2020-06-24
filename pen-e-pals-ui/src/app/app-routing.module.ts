@@ -1,17 +1,26 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PalsViewComponent } from './components/pals-view/pals-view.component';
-
+import { HomeComponent } from './components/home/home.component';
+import { RegisterComponent } from './components/register/register.component';
 
 const routes: Routes = [
   {
-    path:'pals',
-    component: PalsViewComponent
-  }
+    path:'',
+    component:HomeComponent,
+  },
+  {
+    path:'register',
+    component: RegisterComponent,
+  },
+  {
+    path: 'pals',
+    component: PalsViewComponent,
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
