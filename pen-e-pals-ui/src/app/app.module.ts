@@ -17,7 +17,12 @@ import { RegisterComponent } from './components/register/register.component';
     HomeComponent,
     RegisterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, ReactiveFormsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+  ],
   providers: [PalsService],
   bootstrap: [AppComponent],
 })

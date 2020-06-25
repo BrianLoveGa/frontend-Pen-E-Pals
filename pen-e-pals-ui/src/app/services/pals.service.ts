@@ -1,33 +1,30 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {Observable} from 'rxjs/Observable';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs/Observable';
 
 const httpOptions = {
-  headers: new HttpHeaders({ 'Content-Type':'application/json'})
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' }),
 };
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class PalsService {
+  constructor(private http: HttpClient) {}
 
-  constructor(private http:HttpClient) { }
-
-  getPals(){
+  getPals() {
     return this.http.get('/server/api/v1/pals');
   }
 
-  createPalRegistration(pal){
+  createPalRegistration(pal) {
     let body = JSON.stringify(pal);
-    return this.http.post('/server/api/v1/pals', body, httpOptions)
-
+    return this.http.post('/server/api/v1/pals', body, httpOptions);
   }
 
   // not used yet
-  getPal(id: number){
+  getPal(id: number) {
     return this.http.get('/server/api/v1/pals' + id);
-  } 
+  }
 
   // create delete and edit
-
 }
