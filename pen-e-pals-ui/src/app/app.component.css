@@ -1,9 +1,19 @@
-.topPic{
-    width:75%;
+.topPic {
+  width: 75%;
 }
 
-
-.spacer{
-    min-height: 150px;
+.spacer {
+  min-height: 150px;
 }
 
+#nav {
+  border: 5px solid black;
+  margin: 5%;
+  padding: 10px;
+  justify-content: space-around;
+  font-size: 2em;
+}
+
+a {
+  margin: 40px;
+}
