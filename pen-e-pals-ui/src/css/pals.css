@@ -12,13 +12,11 @@ html {
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Courier New', sans-serif;
     font-weight: normal;
-    font-size: 1.5em;
+    font-size:calc(2.5em+2.5vw);
     background: linear-gradient(150deg,#D5E3F1 15%,#FFFBD9 70%,#aebaff 94%);
   }
   
-  h1 {
-    font-size:calc(1.5em+1.5vw);
-  }
+  
   
   .table-bordered, .table-bordered td, .table-bordered th {
     border: 3px solid #2F465D;
