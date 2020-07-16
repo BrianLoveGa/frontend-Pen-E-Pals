@@ -9,11 +9,31 @@
 #nav {
   border: 5px solid black;
   margin: 5%;
-  padding: 10px;
+  padding: 20px;
   justify-content: space-around;
   font-size: 2em;
 }
 
 a {
-  margin: 40px;
+  margin: 10px;
 }
+
+a:hover{
+background-color: chartreuse;
+}
+
+.white{
+  background-color: white;
+  text-align: center;
+}
+
+
+.hide{
+  justify-content: center;
+}
+
+
+.line{
+  display: inline-block;
+}
+
