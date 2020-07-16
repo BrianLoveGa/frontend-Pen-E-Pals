@@ -17,3 +17,13 @@
   font-stretch: expanded;
   font-size: larger;
 }
+
+.green{
+  border: 3px solid green;
+}
+.blue{
+  border: 3px solid blue;
+}
+.red{
+  border: 3px solid red;
+}
