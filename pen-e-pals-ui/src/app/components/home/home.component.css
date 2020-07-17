@@ -1,29 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rowdies:wght@700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rowdies:wght@700&display=swap");
 
 .spacer {
   min-height: 100px;
 }
 
 .white {
-  font-family: 'Rowdies', cursive;
+  font-family: "Rowdies", cursive;
   background-color: whitesmoke;
   padding: 10%;
   margin: 1%;
 }
 
-.intro{
-  font-family: 'Oswald', sans-serif;
+.intro {
+  font-family: "Oswald", sans-serif;
   font-stretch: expanded;
   font-size: larger;
 }
 
-.green{
+.green {
   border: 3px solid green;
 }
-.blue{
+.blue {
   border: 3px solid blue;
 }
-.red{
+.red {
   border: 3px solid red;
 }

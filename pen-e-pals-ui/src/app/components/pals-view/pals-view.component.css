@@ -71,7 +71,6 @@ tr:nth-of-type(odd) {
     content: "Email";
   }
   td:nth-of-type(3):before {
-	content: "Topics";
-
+    content: "Topics";
   }
 }

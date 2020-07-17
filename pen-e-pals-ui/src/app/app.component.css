@@ -18,22 +18,19 @@ a {
   margin: 10px;
 }
 
-a:hover{
-background-color: chartreuse;
+a:hover {
+  background-color: chartreuse;
 }
 
-.white{
+.white {
   background-color: white;
   text-align: center;
 }
 
-
-.hide{
+.hide {
   justify-content: center;
 }
 
-
-.line{
+.line {
   display: inline-block;
 }
-

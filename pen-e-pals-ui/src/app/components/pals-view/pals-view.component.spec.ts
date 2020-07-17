@@ -8,9 +8,8 @@ describe('PalsViewComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PalsViewComponent ]
-    })
-    .compileComponents();
+      declarations: [PalsViewComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {

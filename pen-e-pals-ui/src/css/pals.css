@@ -1,23 +1,23 @@
 html {
-    height: 100%;
-  }
-  
-  body {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-rendering: optimizeLegibility;
-    position: relative;
-    min-height: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Courier New', sans-serif;
-    font-weight: normal;
-    font-size:calc(2.5em+2.5vw);
-    background: linear-gradient(150deg,#D5E3F1 15%,#FFFBD9 70%,#aebaff 94%);
-  }
-  
-  
-  
-  .table-bordered, .table-bordered td, .table-bordered th {
-    border: 3px solid #2F465D;
-  }
+  height: 100%;
+}
+
+body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Courier New", sans-serif;
+  font-weight: normal;
+  font-size: calc(2.5em+2.5vw);
+  background: linear-gradient(150deg, #d5e3f1 15%, #fffbd9 70%, #aebaff 94%);
+}
+
+.table-bordered,
+.table-bordered td,
+.table-bordered th {
+  border: 3px solid #2f465d;
+}

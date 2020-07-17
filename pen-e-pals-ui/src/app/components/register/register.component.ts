@@ -35,7 +35,8 @@ export class RegisterComponent implements OnInit {
         }
       );
     } else {
-      this.validMessage = 'Please fill out all three info fields to register as a Pal. Double check your email';
+      this.validMessage =
+        'Please fill out all three info fields to register as a Pal. Double check your email';
     }
   }
 }

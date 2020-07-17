@@ -1,23 +1,24 @@
 <div class="container">
   <div class="white">
-  <table class="table table-bordered table-inverse">
-    <tr>
-      <th><div class="bye">Name</div></th>
-      <th><div class="bye">Email</div></th>
-      <th> <div class="bye">Interests</div></th>
-    </tr>
-    <tr *ngFor="let pal of pals">
-      <td>
-        {{ pal.name }}
-      </td>
-      <td>
-        <a target="top" class="trim" href="mailto:{{ pal.email }}">{{ pal.email }}</a>
-      </td>
-      <td>
-        {{ pal.interests }}
-      </td>
-    </tr>
-  </table>
+    <table class="table table-bordered table-inverse">
+      <tr>
+        <th><div class="bye">Name</div></th>
+        <th><div class="bye">Email</div></th>
+        <th><div class="bye">Interests</div></th>
+      </tr>
+      <tr *ngFor="let pal of pals">
+        <td>
+          {{ pal.name }}
+        </td>
+        <td>
+          <a target="top" class="trim" href="mailto:{{ pal.email }}">{{
+            pal.email
+          }}</a>
+        </td>
+        <td>
+          {{ pal.interests }}
+        </td>
+      </tr>
+    </table>
+  </div>
 </div>
-</div>
-
